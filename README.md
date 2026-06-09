@@ -7,7 +7,7 @@ Predikcija cena nekretnina pomoću mašinskog učenja na **Ames Housing** datase
 - **Izvor:** Ames Housing (Kaggle format)
 - **Fajlovi:** `data/train.csv` (1460 kuća), `data/test.csv` (1459 kuća)
 - **Ciljna promenljiva:** `SalePrice`
-- **Atributi:** ~80 (numeričkiểm i kategorijske kolone)
+- **Atributi:** ~80 (numeričkim i kategorijskim kolonama)
 
 Ako podaci nisu u repou, preuzmi ih:
 
@@ -52,12 +52,6 @@ python run.py
 Otvori u browseru: **http://localhost:8501**
 
 Prvi put se automatski treniraju i čuvaju modeli u `models/` (potrebno par minuta).
-
-**Windows (alternativa):**
-
-- `pokreni.bat` — pokretanje sa terminalom
-- `POKRENI_APLIKACIJU.vbs` — pokretanje u pozadini
-- `ugasi.bat` / `UGASI_APLIKACIJU.vbs` — gašenje aplikacije
 
 ### Treniranje svih modela
 
@@ -121,3 +115,4 @@ Treniranje uvek daje iste rezultate jer su fiksirani `random_state=42` i isti hi
 ## Licenca
 
 Projekat je namenjen edukativnoj upotrebi. Dataset Ames Housing ima sopstvenu licencu (Kaggle / originalni autori).
+
